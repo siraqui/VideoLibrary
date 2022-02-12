@@ -1,0 +1,21 @@
+﻿@model Vidlib_v2.Models.Customer
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<text>@Model.Name</text>
+<br />
+<text>@Model.IsSubscribedToNewsLetter</text>
+<br />
+
+@if (@Model.MemberShipType != null)
+{
+    <text>@Model.MemberShipType.SignUpFee $</text>
+    <br />
+
+    <text>@Model.MemberShipType.DurationInMonths Months !</text>
+
+}
