@@ -10,21 +10,16 @@ namespace Vidlib_v2.Controllers
 {
     public class MoviesController : Controller
     {
-
-        public ActionResult Random()
+        private ApplicationDbContext _context;
+        public MoviesController()
         {
-            var movie = new Movie() { Name = "Spider Man !" };
-            var customers = new List<Customer> {
-            new Customer{Name="Customer1"},
-            new Customer { Name = "Customer2" }
-    };
-            var ViewModel = new RandomMovieViewModel { 
-            Movie= movie,
-            Customers= customers
-            };
-            return View(ViewModel);
+            _context = new ApplicationDbContext();
         }
-
+       
+        private List<Movie> GetMovies()
+        {
+            return _context.Movies.ToList();
+        }
         public ActionResult Edit(int id)
         {
             return Content("id=" + id);
@@ -33,7 +28,8 @@ namespace Vidlib_v2.Controllers
         // GET: Movies
         public ActionResult Index()
         {
-            return View();
+            
+            return View(GetMovies());
         }
 
 

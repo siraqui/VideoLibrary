@@ -120,3 +120,7 @@ C:\Users\Lenovo\Desktop\Lobby\Projects\Personal_projects\Vidlib\Vidlib-v2\obj\De
 C:\Users\Lenovo\Desktop\Lobby\Projects\Personal_projects\Vidlib\Vidlib-v2\obj\Debug\Vidlib_v2.Migrations.AddMemberShipTypeTable.resources
 C:\Users\Lenovo\Desktop\Lobby\Projects\Personal_projects\Vidlib\Vidlib-v2\obj\Debug\Vidlib_v2.Migrations.PopulateMembershipTypes.resources
 C:\Users\Lenovo\Desktop\Lobby\Projects\Personal_projects\Vidlib\Vidlib-v2\obj\Debug\Vidlib_v2.Migrations.ApplyAnnotationsToCustomerName.resources
+C:\Users\Lenovo\Desktop\Lobby\Projects\Personal_projects\Vidlib\Vidlib-v2\obj\Debug\Vidlib_v2.Migrations.AddingNameForMemberShipType.resources
+C:\Users\Lenovo\Desktop\Lobby\Projects\Personal_projects\Vidlib\Vidlib-v2\obj\Debug\Vidlib_v2.Migrations.SeedingDataNameForMembershipType.resources
+C:\Users\Lenovo\Desktop\Lobby\Projects\Personal_projects\Vidlib\Vidlib-v2\obj\Debug\Vidlib_v2.Migrations.AddDoBForCustomers.resources
+C:\Users\Lenovo\Desktop\Lobby\Projects\Personal_projects\Vidlib\Vidlib-v2\obj\Debug\Vidlib_v2.Migrations.makeDobNullable.resources

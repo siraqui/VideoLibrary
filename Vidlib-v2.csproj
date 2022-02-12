@@ -199,6 +199,22 @@
     <Compile Include="Migrations\202201301902247_ApplyAnnotationsToCustomerName.Designer.cs">
       <DependentUpon>202201301902247_ApplyAnnotationsToCustomerName.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202202121822209_AddingNameForMemberShipType.cs" />
+    <Compile Include="Migrations\202202121822209_AddingNameForMemberShipType.Designer.cs">
+      <DependentUpon>202202121822209_AddingNameForMemberShipType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202202121825244_SeedingDataNameForMembershipType.cs" />
+    <Compile Include="Migrations\202202121825244_SeedingDataNameForMembershipType.Designer.cs">
+      <DependentUpon>202202121825244_SeedingDataNameForMembershipType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202202122110501_AddDoBForCustomers.cs" />
+    <Compile Include="Migrations\202202122110501_AddDoBForCustomers.Designer.cs">
+      <DependentUpon>202202122110501_AddDoBForCustomers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202202122111454_makeDobNullable.cs" />
+    <Compile Include="Migrations\202202122111454_makeDobNullable.Designer.cs">
+      <DependentUpon>202202122111454_makeDobNullable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -270,6 +286,7 @@
     <Content Include="Views\Movies\Random.cshtml" />
     <Content Include="Views\Shared\_Navbar.cshtml" />
     <Content Include="Views\Customers\Details.cshtml" />
+    <Content Include="Views\Movies\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -305,6 +322,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202201301902247_ApplyAnnotationsToCustomerName.resx">
       <DependentUpon>202201301902247_ApplyAnnotationsToCustomerName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202202121822209_AddingNameForMemberShipType.resx">
+      <DependentUpon>202202121822209_AddingNameForMemberShipType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202202121825244_SeedingDataNameForMembershipType.resx">
+      <DependentUpon>202202121825244_SeedingDataNameForMembershipType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202202122110501_AddDoBForCustomers.resx">
+      <DependentUpon>202202122110501_AddDoBForCustomers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202202122111454_makeDobNullable.resx">
+      <DependentUpon>202202122111454_makeDobNullable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
